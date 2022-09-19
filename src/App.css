@@ -6,10 +6,11 @@
   grid-template-areas: 
     "sidebar reviews average sa"
     "sidebar visitors visitors visitors";
+    font-family: 'Poppins', sans-serif;
 }
 
 div {
-  border: solid 1px black;
+  
   margin: 10px;
   padding: 0 10px;
   
@@ -42,6 +43,9 @@ li {
 .sa {
   grid-area: sa;
   background-color: rgb(212, 244, 244);
+}
+.sa p {
+  text-align: left;
 }
 .visitors {
   grid-area: visitors;
