@@ -1,14 +1,14 @@
 const Sidebar = () => {
   return (
     <div class="sidebar">
-      <ul>
-        <li>Dashboard</li>
-        <li>Widget</li>
-        <li>Reviews</li>
-        <li>Customers</li>
-        <li>Online Analysis</li>
-        <li>Settings</li>
-      </ul>
+      
+        <p>Dashboard</p>
+        <p>Widget</p>
+        <p>Reviews</p>
+        <p>Customers</p>
+        <p>Online Analysis</p>
+        <p>Settings</p>
+      
     </div>
   );
 };

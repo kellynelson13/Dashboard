@@ -1,10 +1,10 @@
 
 const WebsiteVisitors = (props) => {
     return (
-        <div>
+        <div className="visitors">
             <p>Website Visitors</p>
             <h3>{props.visitors}</h3>
-            <div className="rectangle">Hello</div>
+            <div className="rectangle"></div>
         </div>
     )
 }

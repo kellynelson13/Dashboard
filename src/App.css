@@ -1,8 +1,56 @@
 .App {
   text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr;
+  grid-template-areas: 
+    "sidebar reviews average sa"
+    "sidebar visitors visitors visitors";
 }
 
 div {
   border: solid 1px black;
+  margin: 10px;
+  padding: 0 10px;
+  
+}
+li {
+  list-style: none;
+}
+.sidebar {
+  grid-area: sidebar;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(212, 244, 244);
+  text-align: left;
+}
+.sidebar p {
+  padding: 0;
   margin: 5px;
 }
+.average-rating {
+  grid-area: average;
+  text-align: left;
+  background-color: rgb(212, 244, 244);
+}
+.reviews {
+  grid-area: reviews;
+  text-align: left;
+  background-color: rgb(212, 244, 244);
+}
+.sa {
+  grid-area: sa;
+  background-color: rgb(212, 244, 244);
+}
+.visitors {
+  grid-area: visitors;
+  text-align: left;
+  background-color: rgb(212, 244, 244);
+}
+.rectangle {
+  height: 250px;
+  margin: 20px;
+  background-color: rgb(163, 242, 242);
+}
+
