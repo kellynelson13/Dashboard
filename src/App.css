@@ -25,24 +25,29 @@ li {
   flex-direction: column;
   background-color: rgb(212, 244, 244);
   text-align: left;
+  box-shadow: 5px 7px #e5a4b3;
 }
 .sidebar p {
   padding: 0;
   margin: 5px;
+
 }
 .average-rating {
   grid-area: average;
   text-align: left;
   background-color: rgb(212, 244, 244);
+  box-shadow: 5px 7px #e5a4b3;
 }
 .reviews {
   grid-area: reviews;
   text-align: left;
   background-color: rgb(212, 244, 244);
+  box-shadow: 5px 7px #e5a4b3;
 }
 .sa {
   grid-area: sa;
   background-color: rgb(212, 244, 244);
+  box-shadow: 5px 7px #e5a4b3;
 }
 .sa p {
   text-align: left;
@@ -51,10 +56,11 @@ li {
   grid-area: visitors;
   text-align: left;
   background-color: rgb(212, 244, 244);
+  box-shadow: 5px 7px #e5a4b3;
 }
 .rectangle {
   height: 250px;
   margin: 20px;
-  background-color: rgb(163, 242, 242);
+  background-color: rgb(173, 230, 230);
 }
 
